@@ -22,7 +22,7 @@
         ); // ใส่ URL ของ Apps Script ที่ได้จากข้อ 2
         const data = await response.json();
         console.log(data);
-        <!-- const tableBody = document.getElementById("table-body");
+        const tableBody = document.getElementById("table-body");
 
         tableBody.innerHTML = ""; // ล้างข้อมูลเก่า
         data.forEach((row) => {
@@ -33,7 +33,7 @@
             tr.appendChild(td);
           }
           tableBody.appendChild(tr);
-        }); -->
+        });
       }
 
       // อัปเดตข้อมูลทุก 10 วินาที
