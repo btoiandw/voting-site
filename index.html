@@ -8,7 +8,7 @@
     async function fetchElectionData() {
       const response = await fetch('https://script.google.com/macros/s/AKfycby5fsbMzobBTVcM9MyiFwS4C-ro7x2YyLQWY8nAUdE/dev'); // ใส่ URL ของ Apps Script ที่ได้จากข้อ 2
       const data = await response.json();
-      console.log(data);
+      console.log(response);
       const tableBody = document.getElementById('table-body');
       
       tableBody.innerHTML = ''; // ล้างข้อมูลเก่า
