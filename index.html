@@ -18,7 +18,7 @@
     <script>
       async function fetchElectionData() {
         const response = await fetch(
-          "https://script.google.com/macros/s/AKfycbzSc3tnu9Vz0SZk_D9vBIogClZKEhbnijk4uSpNCPlzmS87Y41qGyIc8bYSbZ3ezT_r/exec", { mode: 'no-cors'}
+          "https://script.google.com/macros/library/d/1AkBSWJXx86ZffhnD4UfVO-P5r3dKYgeNNwimlthnHKPrdhNWqifpOv7y/1", { mode: 'no-cors'}
         ); // ใส่ URL ของ Apps Script ที่ได้จากข้อ 2
         const data = await response.json();
         console.log(data);
